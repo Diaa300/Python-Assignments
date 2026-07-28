@@ -49,6 +49,7 @@ j = (1, 2, "X")
 print(i)
 print(i.symmetric_difference(j)) # i ^ j
 print(i)
+
 print('=' * 40) # Separator
 
 # symmetric_difference_update()
@@ -57,3 +58,5 @@ k = {1, 2, 3, "Diaa", 5}
 l = {1, 2, 3, "Ahmed", 5}
 k.symmetric_difference_update(l)
 print(k)
+
+print('=' * 40) # Separator
