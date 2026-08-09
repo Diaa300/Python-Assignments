@@ -53,8 +53,8 @@ hours = days * 24
 minutes = hours * 60
 seconds = minutes * 60
 
-if 10 < age < 100: 
-    print("")
+if 10 < Age < 100: 
+    print("Your Age Is Suitable")
 
 
     if time_unit == "month":
@@ -77,3 +77,22 @@ if 10 < age < 100:
 
 else:
     print("Not Found")    
+
+
+print("#" * 50)
+
+# التكليف 04
+
+countries = ["Egypt", "Palestine", "Syria", "Yemen", "Ksa", "Usa", "Bahrain", "England"]
+country = input("Input Your Country").capitalize()
+price = 100
+discount = 30
+
+if country in ["Egypt", "Palestine", "Syria", "Yemen", "Bahrain", "Ksa"]:
+    print(f"Your Country Eligible For Discount And The Price After Discount Is {price - discount}")
+
+elif country in ["Usa", "England"]:
+    print(f"Your Country Not Eligible For Discount And The Price Is {price}")
+
+else:
+    print("Invalid Country")    
