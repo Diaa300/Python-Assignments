@@ -44,4 +44,4 @@ for name in peoples:
 
     for skill in peoples[name]:
 
-        print(skill)
+        print(f"{skill.upper()} => {peoples[name][skill]}")
