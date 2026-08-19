@@ -5,9 +5,9 @@
 mytuple = ("HTML", "CSS", 'JS')
 
 myskills = {
-    'Html' : '95%',
-    'JS' : '75%',
-    'CSS' : '80%',
+    'GO' : '95%',
+    'Python' : '75%',
+    'MySQL' : '80%',
 }
 
 def show_skills(name, *skills, **skillwithprogress):
