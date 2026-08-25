@@ -32,7 +32,7 @@ print('=' * 50)
 
 myTexts = ['dIaa', '  KAdRe   ', 'aHmEd  ']
 
-for name in map(lambda text: f'- {text.strip().capitalize()} -', myTexts):
+for name in list(map((lambda text: f'- {text.strip().capitalize()} -'), myTexts)):
 
     print(name) 
 
